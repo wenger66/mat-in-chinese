@@ -1,7 +1,6 @@
 # mat-in-chinese
 
-outgoing reference
-
-incoming reference 
 
 Path 
+
+heap dump和java dump的线程对不上
