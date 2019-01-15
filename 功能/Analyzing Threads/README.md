@@ -16,12 +16,12 @@
 ![PHD转储文件的线程页面](./2.png)
 
 线程概览表格包括以下列：
-* 对象或栈帧(Object / Stack Frame)：格式是类@地址，例如com.intellij.rt.execution.application.AppMainV2$1@0xc1444d88，可以展开栈帧
-* 名称(Name)：线程名称
-* 浅堆(Shallow Heap)：对象本身占用的内存空间，单位是字节
-* 保留堆(Retained Heap)：回收对象后可以回收的内存空间，单位是字节
-* 类加载器(Context Class Loader)：ClassLoader的类@地址
-* 是否是守护线程(Is Daemon)：  是否是守护线程
+* Object / Stack Frame：对象或栈帧，格式是类@地址，例如com.intellij.rt.execution.application.AppMainV2$1@0xc1444d88，可以展开栈帧
+* Name：线程名称
+* Shallow Heap：浅堆，对象本身占用的内存空间，单位是字节
+* Retained Heap：保留堆，回收对象后可以回收的内存空间，单位是字节
+* Context Class Loader：类加载器，ClassLoader的类@地址
+* Is Daemon：  是否是守护线程
 可以通过排序Retained Heap列，找到占用内存最多的线程
 
 线程概览可以观察线程的调用栈和本地Java对象，所以转储文件和MAT不仅仅可以用来定位内存相关的问题，还可以在其他问题上派上用场，例如应用没有反应。
