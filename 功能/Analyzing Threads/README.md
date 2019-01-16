@@ -5,7 +5,7 @@
 两种方式可以打开线程概览，一种是按下图点击工具栏按钮，一种是通过Open Query Browser > Java Basics > Thread Overview and Stacks ，不输入
 对象就会显示全部线程。
 第二种方式可以理解为一种预定义查询。
-![screen shot of thread overview](./threads_overview.png)
+![screen shot of thread overview](./3.png)
 
 一些堆转储格式，例如HPROF和IBM System dump是包含线程的调用堆栈和每个栈帧的Java本地对象的
 
