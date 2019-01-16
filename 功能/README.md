@@ -1,13 +1,17 @@
 
-* [安装DTFJ插件](./Installing IBM DTFJ feature/README.md)
+* [安装DTFJ插件](./Installing%20IBM%20DTFJ%20feature/README.md)
 
-* [线程分析](./Analyzing%20Threads/README.md)
+* [直方图(Histrogram)](./Histrogram/README.md)
 
-* [对象可达路径(Path to GC Roots)](./Path to GC Roots/README.md)
+* [线程分析(Analyzing Threads)](./Analyzing%20Threads/README.md)
 
-* [对象可达最短路径(Merge Shortest Paths to GC Roots)/](./Merge Shortest Paths to GC Roots/README.md)
+* [对象可达路径(Path to GC Roots)](./Path%20to%20GC%20Roots/README.md)
 
-* [提取列表对象值(Extract List Values)](./Extract List Values/README.md)
+* [对象可达最短路径(Merge Shortest Paths to GC Roots)/](./Merge%20Shortest%20Paths%20to%20GC%20Roots/README.md)
+
+* [提取列表对象值(Extract List Values)](./Extract%20List%20Values/README.md)
+
+* [不可达对象(Unreachable)](./Unreachable/README.md)
 
 
 所有功能其实就是配置不同的SQL查询语句
