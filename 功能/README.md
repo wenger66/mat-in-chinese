@@ -9,20 +9,31 @@
 
 * [类加载器分析(Analyze Class Loader)](./Analyze%20Class%20Loader/README.md)
 
+* [直接支配者(Immediate Dominators)](./Immediate%20Dominators/README.md)
+
 * [对象可达路径(Path to GC Roots)](./Path%20to%20GC%20Roots/README.md)
 
 * [对象可达最短路径(Merge Shortest Paths to GC Roots)/](./Merge%20Shortest%20Paths%20to%20GC%20Roots/README.md)
 
-* [提取列表对象值(Extract List Values)](./Extract%20List%20Values/README.md)
-
 * [不可达对象(Unreachable)](./Unreachable/README.md)
 
+* [提取列表对象值(Extract List Values)](./Extract%20List%20Values/README.md)
 
 **所有功能其实就是配置不同的SQL查询语句**
 
-**MAT中大部分功能都是围绕着路径，有的是从支配的角度，有的是从引用的角度
+**MAT中大部分功能都是围绕着路径，有的是从支配的角度，有的是从引用的角度**
 
-MAT中最常见的对象/类表格的Class Name列包含了大量的信息，这里介绍下，以下图为例
+    [Dominator](https://github.com/wenger66/java-lab/tree/master/dominator) 是一个观察支配树的实验，通过MAT就能观察到
+    从基于引用的对象图到基于支配的支配树结构
+    ![Dominator](./../概念/2.png)
+
+通过MAT的Path to GC Roots和Immediate Dominators这两个功能，就能看到这两种角度
+图2是从引用的角度，图3是从支配的角度
+ ![2](./2.png)
+ ![3](./3.png)
+
+
+MAT中最常见的对象/类表格的Class Name列的值包含了大量的信息，这里介绍下，以下图为例
 
 ![Class Name](./1.png)
 

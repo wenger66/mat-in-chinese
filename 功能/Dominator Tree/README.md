@@ -17,3 +17,9 @@ MAT的直方图(Histogram)是从类的角度看内存占用情况，支配树(Do
 实际情况看，两个Retained Heap列的值一样
 
 可以按任意列排序，常用排序是Retained Heap、Percentage列
+
+[Dominator](https://github.com/wenger66/java-lab/tree/master/dominator) 是一个观察支配树的实验
+
+通过MAT的支配树功能(图2)，就能看到(图3)的从基于引用的对象图到基于支配的支配树结构
+![Dominator Tree](./2.png)
+![Dominator Tree](../../概念/3.png)
