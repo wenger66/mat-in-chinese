@@ -1,7 +1,7 @@
 
 * [安装DTFJ插件](./Installing IBM DTFJ feature/README.md)
 
-* [线程分析](./Analyzing Threads/README.md)
+* [线程分析](./Analyzing%20Threads/README.md)
 
 * [对象可达路径(Path to GC Roots)](./Path to GC Roots/README.md)
 
