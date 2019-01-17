@@ -23,7 +23,9 @@
 
 * [提取列表对象值(Extract List Values)](./Extract%20List%20Values/README.md)
 
-* [最大内存消耗者](./Top%20Consumers/README.md)
+* [最大内存消耗者(Top Consumers)](./Top%20Consumers/README.md)
+
+* [类重复(Duplicate Classes)](./Duplicate%20Classes/README.md)
 
 **所有功能其实就是配置不同的SQL查询语句**
 
