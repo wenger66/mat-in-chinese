@@ -11,6 +11,8 @@
 
 * [直接支配者(Immediate Dominators)](./Immediate%20Dominators/README.md)
 
+* [支配树上的重枝(Big Drops in Dominator Tree)](./Big%20Drops%20in%20Dominator%20Tree/README.md)
+
 * [对象可达路径(Path to GC Roots)](./Path%20to%20GC%20Roots/README.md)
 
 * [对象可达最短路径(Merge Shortest Paths to GC Roots)/](./Merge%20Shortest%20Paths%20to%20GC%20Roots/README.md)
