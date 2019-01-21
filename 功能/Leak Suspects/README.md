@@ -24,7 +24,7 @@
  然后可以看看**聚集点**里放了什么
   ![图5](./5.png)
   
- 最后回到代码
+ 最后回到代码印证思考的逻辑
  
         // 测试的缓存
         private static ConcurrentMap<String, String> map = new ConcurrentHashMap<String, String>();
