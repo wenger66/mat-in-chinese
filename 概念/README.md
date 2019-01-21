@@ -40,7 +40,7 @@ Memory Analyzer工具内能使用HPROF二进制堆转储文件，OpenJ9的系统
 
 ## 支配树([Dominator Tree](https://help.eclipse.org/2018-12/index.jsp?topic=/org.eclipse.mat.ui.help/welcome.html))
 
-Memory Analyzer工具可以将对象图转换为一种支配树结构。
+MAT可以将对象图转换为一种支配树结构。
 这种转换让用户更容易定位对象保留的最大内存块和对象间的依赖关系。下面是一些非正式术语定义：
 
 * 对象X支配对象Y，含义是每个从开始(或跟)节点到达Y的对象路径总会经过X

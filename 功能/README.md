@@ -11,6 +11,8 @@
 
 * [类加载器分析(Analyze Class Loader)](./Analyze%20Class%20Loader/README.md)
 
+* [比较池(Compare Basket)](./Compare%20Basket/README.md)
+
 * [直接支配者(Immediate Dominators)](./Immediate%20Dominators/README.md)
 
 * [支配树上的重枝(Big Drops in Dominator Tree)](./Big%20Drops%20in%20Dominator%20Tree/README.md)
