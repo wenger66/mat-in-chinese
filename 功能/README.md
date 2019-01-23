@@ -1,7 +1,7 @@
 
 * [安装DTFJ插件](./Installing%20IBM%20DTFJ%20feature/README.md)
 
-大功能
+===============================================================================
 
 * [概览(Overview)](./Overview/README.md)
 
@@ -17,7 +17,7 @@
 
 * [详细信息面板(Inspector)](./Inspector/README.md)
 
-小功能
+===============================================================================
 
 * [直接支配者(Immediate Dominators)](./Immediate%20Dominators/README.md)
 
@@ -31,7 +31,7 @@
 
 * [提取列表对象值(Extract List Values)](./Extract%20List%20Values/README.md)
 
-报告
+===============================================================================
 
 * [内存泄漏分析(Leak Suspects)](./Leak%20Suspects/README.md)
 
