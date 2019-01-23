@@ -6,14 +6,14 @@
     * [堆转储](./概念#堆转储)
     * [浅堆(Shallow heap) vs 保留堆(Retained heap)](./概念#浅堆shallow-heap-vs-保留堆retained-heap)
     * [支配树(Dominator Tree)](./概念#支配树dominator-tree)
-    * [GC Roots](./概念/#GC Roots)
+    * [GC Roots](./概念#gc-roots)
     * [传出引用(Outgoing References) vs 传入引用(Incoming References)](./概念#传出引用outgoing-references-vs-传入引用incoming-references)
 
 * [功能](./功能/README.md)
 
   * [安装DTFJ插件](./Installing%20IBM%20DTFJ%20feature/README.md)
   
-  ===============================================================================
+
   
   * [概览(Overview)](./Overview/README.md)
   
@@ -29,7 +29,7 @@
   
   * [详细信息面板(Inspector)](./Inspector/README.md)
   
-  ===============================================================================
+  
   
   * [直接支配者(Immediate Dominators)](./Immediate%20Dominators/README.md)
   
@@ -43,7 +43,7 @@
   
   * [提取列表对象值(Extract List Values)](./Extract%20List%20Values/README.md)
   
-  ===============================================================================
+
   
   * [内存泄漏分析(Leak Suspects)](./Leak%20Suspects/README.md)
   
